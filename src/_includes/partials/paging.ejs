@@ -1,0 +1,13 @@
+<nav aria-label="Page navigation" class="mt-4">
+    <ul class="pagination justify-content-center">
+        <% if (pagination.href.previous) { %><li class="page-item"><a class="page-link" href="<%= pagination.href.previous %>">Previous</a></li><% } %>
+        
+        <% for (let i = 1; i <= pagination.totalPages; i++) { %>
+            <li class="page-item <%= pagination.page === i ? 'active' : '' %>">
+                <a class="page-link" href="<%= pagination.href.getPage(i) %>"><%= i %></a>
+            </li>
+        <% } %>
+
+        <% if (pagination.href.next) { %><li class="page-item"><a class="page-link" href="<%= pagination.href.next %>">Next</a></li><% } %>
+    </ul>
+</nav>

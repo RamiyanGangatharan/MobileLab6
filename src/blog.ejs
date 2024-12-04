@@ -1,0 +1,39 @@
+---
+layout: layout/mylayout.ejs
+title: Blog
+---
+
+<div class="container">
+    <h1 class="display-1 text-center">Blog</h1>
+    <p class="lead text-center">My Work Showcase</p>
+</div>
+
+<br>
+
+<div class="container-fluid">
+    <div class="card-container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+    </div>
+</div>
+
+<style>
+    .card-container {
+        display: flex;
+        gap: 16px; 
+        justify-content: center; 
+        padding: 16px;
+    }
+    .card {
+        width: 150px;
+        height: 200px;
+        background-color: lightblue;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+    }
+</style>

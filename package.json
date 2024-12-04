@@ -1,0 +1,22 @@
+{
+  "name": "mobile_lab_6",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mobile Lab 6",
+  "main": "/core/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "author": "Ramiyan Gangatharan [100835223]",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-ejs": "^1.0.0",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "fs-extra": "^11.2.0"
+  }
+}
