@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "title": "Lab 1",
+            "description": "A research paper called 'Mobile Technology & Security: A Unified Analysis' where I discuss the history of the cellphone.",
+            "due_date": "2024/09/20"
+        },
+        {
+            "title": "Class Work 1",
+            "description": "Created an app that displays personalized information about myself, including my name, banner ID, class, section, and my favorite quote.",
+            "due_date": "2024/09/27"
+        },
+        {
+            "title": "Lab 2",
+            "description": "Created a virtual event management system using XML and related technologies.",
+            "due_date": "2024/09/27"
+        },
+        {
+            "title": "Lab 3",
+            "description": "Developed a mobile app on Java and ran it on BlueStacks.",
+            "due_date": "2024/10/04"
+        },
+        {
+            "title": "Class Work 2",
+            "description": "Used MIT App Inventor to create a custom app with at least two screens",
+            "due_date": "2024/10/11"
+        },
+        {
+            "title": "Class Work 3",
+            "description": "Using Flutter, I created an app that displays personalized information about myself, including my name, banner ID, class, section, and my favorite quote.",
+            "due_date": "2024/11/15"
+        },
+        {
+            "title": "Lab 4",
+            "description": "Wrote a research paper called 'Java & Dart: An Examination of Class Structures in Object - Oriented Programming'.",
+            "due_date": "2024/11/01"
+        },
+        {
+            "title": "Lab 5",
+            "description": "Wrote a reseach paper on using material components in Flutter.",
+            "due_date": "2024/11/08"
+        },
+        {
+            "title": "Final Project",
+            "description": "Using Flutter, my group created a Korean learning app.",
+            "due_date": "2024/12/06"
+        },
+        {
+            "title": "Lab 6",
+            "description": "Using modern web development technologies, I created a portfolio page to display all my work regarding mobile development.",
+            "due_date": "2024/12/13"
+        }
+    ]
+}

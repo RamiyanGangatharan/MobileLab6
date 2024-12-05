@@ -1,39 +1,56 @@
----
-layout: layout/mylayout.ejs
-title: Blog
----
+--- 
+layout: layout/mylayout.ejs 
+title: Blog 
 
-<div class="container">
-    <h1 class="display-1 text-center">Blog</h1>
-    <p class="lead text-center">My Work Showcase</p>
-</div>
+pagination: 
+  data: collections.blogPosts 
+  size: 2
+--- 
 
-<br>
+<div class="container my-5"> 
+    <h1 class="display-1 text-center">Blog</h1> 
+    <p class="lead text-center">My Work Showcase</p> 
+</div> 
 
-<div class="container-fluid">
-    <div class="card-container">
-        <div class="card">Card 1</div>
-        <div class="card">Card 2</div>
-        <div class="card">Card 3</div>
-    </div>
-</div>
+<div class="container" style="margin-left: 215px;" id="posts-container"> 
+    <div class="row"> 
+        <% pagination.items.forEach(post => { %> 
+            <div class="col-md-4 mb-4"> 
+                <div class="card shadow-sm" style="height: 200px;"> <!-- Set a fixed height for uniformity -->
+                    <div class="card-body d-flex flex-column"> <!-- Use flexbox for better alignment -->
+                        <h2 class="card-title" style="flex-grow: 1;"><%= post.title %></h2> 
+                        <p class="card-text"><%= post.description %></p> 
+                        <p class="text-muted">Due Date: <%= post.due_date %></p> 
+                    </div> 
+                </div> 
+            </div> 
+        <% }); %> 
+    </div> 
+</div> 
 
-<style>
-    .card-container {
-        display: flex;
-        gap: 16px; 
-        justify-content: center; 
-        padding: 16px;
-    }
-    .card {
-        width: 150px;
-        height: 200px;
-        background-color: lightblue;
-        border: 1px solid #ccc;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Arial, sans-serif;
-    }
+<style> 
+    body { 
+        font-family: Arial, Helvetica, sans-serif; 
+        background-color: white; 
+    } 
+
+    .card { 
+        border: none; 
+        background-color: lightblue; 
+        overflow: hidden; /* Ensures no overflow of content */ 
+    } 
+
+    .card-title { 
+        font-size: 1.25rem; 
+        color: black;
+    } 
+
+    .card-text { 
+        font-size: 1rem; 
+        color: black;
+    } 
+
+    #posts-container { 
+        margin-top: 30px; 
+    } 
 </style>
