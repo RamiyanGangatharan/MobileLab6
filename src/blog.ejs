@@ -16,10 +16,10 @@ pagination:
     <div class="row"> 
         <% pagination.items.forEach(post => { %> 
             <div class="col-md-4 mb-4"> 
-                <div class="card shadow-sm" style="height: 200px;"> <!-- Set a fixed height for uniformity -->
+                <div class="card shadow-sm" style="height: 350px;"> <!-- Set a fixed height for uniformity -->
                     <div class="card-body d-flex flex-column"> <!-- Use flexbox for better alignment -->
                         <h2 class="card-title" style="flex-grow: 1;"><%= post.title %></h2> 
-                        <p class="card-text"><%= post.description %></p> 
+                        <p class="card-text text-justify h-100 d-flex align-items-start"><%= post.description %></p> 
                         <p class="text-muted">Due Date: <%= post.due_date %></p> 
                     </div> 
                 </div> 

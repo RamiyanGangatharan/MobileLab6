@@ -2,53 +2,53 @@
     "data": [
         {
             "title": "Lab 1",
-            "description": "A research paper called 'Mobile Technology & Security: A Unified Analysis' where I discuss the history of the cellphone.",
-            "due_date": "2024/09/20"
+            "description": "Research paper titled 'Mobile Technology & Security: A Unified Analysis.' In this paper, I explored the historical development of mobile phones, detailing key innovations that shaped the industry. I analyzed the increasing importance of mobile security, particularly focusing on the vulnerabilities that emerged from the late 20th century through to the mid-2020s. The lab emphasized critical thinking about technology's evolution and the need for robust security measures to protect user data and privacy.",
+            "due_date": "2024-09-20"
         },
         {
             "title": "Class Work 1",
-            "description": "Created an app that displays personalized information about myself, including my name, banner ID, class, section, and my favorite quote.",
-            "due_date": "2024/09/27"
+            "description": "Developed a personal app showcasing my identity, which includes my name, banner ID, class, section, and favorite quote. This project not only familiarized me with Android Studio and Java applications but also provided insights into user interface design and user experience principles. I encountered challenges related to layout design and responsiveness, which deepened my understanding of mobile app development.",
+            "due_date": "2024-09-27"
         },
         {
             "title": "Lab 2",
-            "description": "Created a virtual event management system using XML and related technologies.",
-            "due_date": "2024/09/27"
+            "description": "Created a virtual event management system using XML and related technologies. This lab served as a practical introduction to XML's structure and syntax, reinforcing my understanding of data storage and retrieval methods. It also laid the groundwork for learning Flutter and Dart, as I learned to translate XML data into visual elements. Challenges included ensuring data accuracy and proper event organization, which taught me valuable debugging skills.",
+            "due_date": "2024-09-27"
         },
         {
             "title": "Lab 3",
-            "description": "Developed a mobile app on Java and ran it on BlueStacks.",
-            "due_date": "2024/10/04"
+            "description": "Developed a mobile app in Java and tested it on BlueStacks. This lab focused on understanding mobile emulators and their role in development. I gained hands-on experience with Java's syntax and functionalities, which enhanced my programming skills. A key takeaway was recognizing the differences in performance between an emulator and a physical device, prompting me to think critically about testing environments.",
+            "due_date": "2024-10-04"
         },
         {
             "title": "Class Work 2",
-            "description": "Used MIT App Inventor to create a custom app with at least two screens",
-            "due_date": "2024/10/11"
+            "description": "Utilized MIT App Inventor to create a custom app with multiple screens. This classwork provided a user-friendly platform to experiment with app design, fostering creativity and innovation. I learned about screen navigation and the importance of user flow, as well as how to integrate different components to enhance user interaction. The project presented challenges in screen transitions, encouraging me to seek solutions to improve the app's functionality.",
+            "due_date": "2024-10-11"
         },
         {
             "title": "Class Work 3",
-            "description": "Using Flutter, I created an app that displays personalized information about myself, including my name, banner ID, class, section, and my favorite quote.",
-            "due_date": "2024/11/15"
+            "description": "Built a personalized app using Flutter, showcasing my name, banner ID, class, section, and favorite quote. This project marked my first exposure to Flutter's widget-based architecture, where I learned about state management and the importance of responsive design. It also fostered collaboration as I shared ideas with peers on how to improve app aesthetics and functionality, enhancing my teamwork skills.",
+            "due_date": "2024-11-15"
         },
         {
             "title": "Lab 4",
-            "description": "Wrote a research paper called 'Java & Dart: An Examination of Class Structures in Object - Oriented Programming'.",
-            "due_date": "2024/11/01"
+            "description": "Authored a research paper titled 'Java & Dart: An Examination of Class Structures in Object-Oriented Programming.' This paper deepened my understanding of how object-oriented principles are implemented in Java and Dart, particularly focusing on class hierarchies and inheritance. The research challenged me to compare these two languages critically and understand their unique features, which will be invaluable as I work on Flutter projects.",
+            "due_date": "2024-11-01"
         },
         {
             "title": "Lab 5",
-            "description": "Wrote a reseach paper on using material components in Flutter.",
-            "due_date": "2024/11/08"
+            "description": "Wrote a research paper on utilizing material components in Flutter. I explored how these pre-designed components streamline app development by providing ready-made UI elements, reducing the need for repetitive coding. This paper emphasized best practices for implementing Material Design principles, enhancing my ability to create visually appealing and functional applications. I also discussed potential pitfalls and how to avoid them in my projects.",
+            "due_date": "2024-11-08"
         },
         {
             "title": "Final Project",
-            "description": "Using Flutter, my group created a Korean learning app.",
-            "due_date": "2024/12/06"
+            "description": "Collaborated with a group of five to develop a Korean learning app using Flutter. This project, our magnum opus in mobile development, involved a full-stack approach, integrating Flutter and JSON within VSCode. We went through two weeks of active development and one week of planning, during which we faced challenges like data manipulation. This experience significantly enhanced my project management skills and solidified my full-stack development skills.",
+            "due_date": "2024-12-06"
         },
         {
             "title": "Lab 6",
-            "description": "Using modern web development technologies, I created a portfolio page to display all my work regarding mobile development.",
-            "due_date": "2024/12/13"
+            "description": "Designed a portfolio page to showcase my work in mobile development using modern web technologies. This lab highlighted the importance of personal branding and online presence in the tech industry. I learned about responsive design principles, SEO best practices, and how to effectively present my projects to potential employers. The process of curating my work and reflecting on my learning journey was particularly rewarding.",
+            "due_date": "2024-12-13"
         }
     ]
 }
